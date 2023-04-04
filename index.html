@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Daily Fasting Time</title>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+   </head>
+   <body class="bg-gray-800 text-gray-100 font-roboto">
+      <div class="location p-4 flex justify-center items-center">
+         <div>Your current location is set to:</div>
+         <div class="ml-2 loc_name">PABNA</div>
+      </div>
+      <div class="flex justify-between time_container">
+         <div class="sehri card flex flex-col items-center justify-center">
+            <div class="title text-xl font-bold mb-6">SEHRI TIME</div>
+            <div class="time text-5xl font-bold mb-6">04:30 AM</div>
+         </div>
+
+         <div class="iftar card flex flex-col items-center justify-center">
+            <div class="title text-xl font-bold mb-6">IFTAR TIME</div>
+            <div class="time text-5xl font-bold mb-6">06:25 PM</div>
+         </div>
+      </div>
+	  <div class="dua-container">
+		<div class="dua">
+		   <div class="title text-center font-bold mb-4 dua_title">SEHRI DUA</div>
+		   <div class="text-center">Bismillah hir-Rahman nir-raheem</div>
+		   <div class="text-center">Allahumma inni laka sumtu wa bika aamantu [wa 'alayka tawakkaltu] wa 'ala rizq-ika aftarthu</div>
+		   <div class="text-center">Translation: "In the name of Allah, the most Merciful and the most Beneficent. O Allah! I fasted for You and I believe in You [and I put my trust in You] and I break my fast with Your sustenance."</div>
+		</div>
+		<div class="dua">
+		   <div class="title text-center font-bold mb-4 dua_title">IFTAR DUA</div>
+		   <div class="text-center">Allahumma inni laka sumtu wa bika aamantu [wa 'alayka tawakkaltu] wa 'ala rizq-ika aftarthu</div>
+		   <div class="text-center">Translation: "O Allah! I fasted for You and I believe in You and I put my trust in You and I break my fast with Your sustenance."</div>
+		</div>
+	 </div>
+      <script src="script.js"></script>
+   </body>
+</html>
